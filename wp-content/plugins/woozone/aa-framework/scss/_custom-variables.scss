@@ -1,0 +1,82 @@
+// Containers :
+$alias 					: 'WooZone';
+
+// Sizes:
+$html-font-size			: 10;
+$border-radius-small	: 2;
+$border-radius			: 5;
+$border-radius-big		: 8;
+
+// Font Families:
+$primary_font			: 'Roboto', sans-serif;
+
+// Font weights:
+$light					: 300;
+$normal					: 400;
+$medium					: 500;
+$semi-bold				: 600;
+$bold					: 700;
+$extra-bold				: 800;
+$ultra-bold				: 900;
+
+// Global Colors:
+$app_background			: #21263e;
+$white					: #ffffff;
+$black					: #383838;
+$gray					: #727272;
+$orange					: #ffa800;
+$light-gray				: #f6f6f6;
+$purple         		: #ad73a1;
+
+$primary				: #a46497;
+$secondary				: #ef9f00;
+$info					: #3194f1;
+$success				: #68c64b;
+$warning				: #f0ad4e;
+$danger					: #d9534f;
+
+$gradient1				: #403670;
+$gradient2				: #2675b9;
+$gradient3				: #2454a2;
+$gradient4				: #26957d;
+$gradient5				: #4ebd45;
+
+$seashell				: #fff5ee;
+$medium-gray			: #dbdbdb;
+// Debugging?
+$debugging				: false;
+
+
+// Breakpoints:
+$screen-xs				: 480px;
+$screen-sm				: 768px;
+$screen-md				: 992px;
+$screen-lg				: 1200px;
+
+$transition_links 		: all 0.35s cubic-bezier(0.310, -0.105, 0.430, 1.590);
+
+$WooZoneSwal2-white:       #fff;
+$WooZoneSwal2-black:       #000;
+$WooZoneSwal2-transparent: rgba($WooZoneSwal2-black, 0);
+
+$WooZoneSwal2-success:        #a5dc86 !default;
+$WooZoneSwal2-success-border: rgba($WooZoneSwal2-success, .2) !default;
+$WooZoneSwal2-error:          #f27474 !default;
+$WooZoneSwal2-warning:        #f8bb86 !default;
+$WooZoneSwal2-info:           #3fc3ee !default;
+$WooZoneSwal2-question:       #87adbd !default;
+
+$WooZoneSwal2-overlay:        rgba($WooZoneSwal2-black, .4) !default;
+
+$WooZoneSwal2-close-button:               lighten($WooZoneSwal2-black, 80) !default;
+$WooZoneSwal2-close-button-hover:         #d55 !default;
+
+$WooZoneSwal2-input-border:               lighten($WooZoneSwal2-black, 85) !default;
+$WooZoneSwal2-input-border-focus:         #b4dbed !default;
+$WooZoneSwal2-input-box-shadow:           rgba($WooZoneSwal2-black, .06) !default;
+$WooZoneSwal2-input-box-shadow-focus:     #c4e6f5 !default;
+
+$WooZoneSwal2-validationerror-background: #ea7d7d !default;
+$WooZoneSwal2-validationerror-color:      $WooZoneSwal2-white !default;
+
+$WooZoneSwal2-focus-outline: rgba(50, 100, 150, .4);

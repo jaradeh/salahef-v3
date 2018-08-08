@@ -1,0 +1,219 @@
+/* Amazon Config Module */
+##{$alias} {
+	##{$alias}-multikeys {
+		padding-bottom: 4px;
+		.WooZone-server-status a {
+			text-decoration: underline;
+		}
+		.clear-float {
+			clear: both;
+		}
+
+		.WooZone-form-button.WooZone-form-button-small, 
+		.WooZone-form-button-small.WooZone-form-button-small {
+			padding: 5px 10px !important;
+			font-size: 10px;
+			border-radius: 3px;
+			font-weight: normal;
+		}
+
+		.#{$alias}-multikeys-wrapp {
+			.WooZone-server-status .WooZone-message.WooZone-error::before,
+			.WooZone-server-status .WooZone-message.WooZone-success::before {
+				margin-right: 5px;
+			}
+
+			.#{$alias}-server-status .#{$alias}-message {
+				padding: 10px !important;
+				margin-bottom: 0px;
+				border-radius: 3px;
+			}
+
+			.#{$alias}-multikeys-boxconfirm {
+				background-color: #FFF59D;
+				color: #263238;
+				padding: 8px;
+			}
+
+			.#{$alias}-multikeys-header {
+				float: left;
+				width: 100%;
+				margin-bottom: 5px;
+				margin-top: 10px;
+
+				.left {
+					float: left;
+					font-weight: bold;
+				}
+				.right {
+					float: right;
+				}
+			}
+
+			.#{$alias}-multikeys-footer {
+				float: left;
+				width: 100%;
+				overflow: hidden;
+				margin-top: 5px;
+
+				div {
+					float: right;
+					color: #FF8A65;
+					font-style: italic;
+				}
+			}
+
+			.#{$alias}-multikeys-addkeys {
+				float: left;
+				width: 100%;
+				overflow: hidden;
+				margin-top: 10px;
+
+				input[type="text"] {
+					width: 15%;
+					margin-right: 20px;
+					vertical-align: bottom;
+				}
+				input[type="button"] {
+				}
+
+				.status-msg {
+					float: left;
+					width: 100%;
+					margin-top: 10px;
+
+					.#{$alias}-multikeys-boxconfirm {
+						margin-bottom: 6px;
+					}
+				}
+
+				.text-notice {
+					float: right;
+					color: #FF8A65;
+					font-style: italic;
+					margin-top: 5px;
+				}
+			}
+
+			table.#{$alias}-multikeys-table {
+				border-collapse: separate;
+				border-spacing: 0;
+				width: 100%;
+				border: 1px solid #ededed;
+
+				th, td {
+					padding: 8px;
+					text-align: center;
+					border-bottom: 1px solid #ededed;
+				}
+
+				th {
+					padding-top: 12px;
+					padding-bottom: 12px;
+					background-color: #2673b8;
+					color: #fff;
+					text-align: center;
+				}
+				td:last-child {
+					ul li:nth-of-type(2) {
+						i {
+							margin-left: 10px;
+						}
+					}
+				}
+			
+				tr.next {
+					display: none;
+				}
+				tr.published {
+					background-color: #fff;
+				}
+				tr {
+					background-color: #f2f2f2;
+				}
+			}
+		}
+	}
+}
+
+.addnewkeys {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.WooZone-progress {
+	text-align: center;
+	width: 60%;
+}
+
+
+/* BADGES / FLAGS */
+##{$alias} .wzadmin-badges {
+	border: 0px solid blue;
+	line-height: 35px;
+
+	> label.WooZone-form-label {
+		width: 100%;
+	}
+
+	> div {
+		border: 0px solid green;
+		float: left;
+		padding-left: 15px;
+		padding-bottom: 20px;
+		background: #F5F5F5;
+
+		.wzadmin-badges-item {
+			border: 0px solid red;
+			display: inline-block;
+			padding: 3px 6px;
+			margin-right: 10px;
+			width: 19%;
+			float: left;
+
+			.wzadmin-badges-item-title {
+				height: 35px;
+				overflow: hidden;
+				margin-top: 15px;
+			}
+
+			.wzadmin-badges-item-property {
+				select {
+					margin-left: 0px !important;
+				}
+			}
+
+			select.small, input[type="text"].small {
+				width: 120px;
+			}
+			select.medium, input[type="text"].medium {
+				width: 220px;
+			}
+		}
+
+		.wzadmin-badges-badges_activated, .wzadmin-badges-badges_where {
+			width: 55%;
+			background-color: transparent;
+
+			.wzadmin-badges-item-property {
+				h5 {
+					margin-top: 0px;
+				}
+			}
+
+			.multisel_l2r_btn > span {
+				height: 25px !important;
+				line-height: 25px !important;
+			}
+		}
+
+		.wzadmin-badges-badges_where {
+			float: right;
+			margin-right: 0px;
+		}
+	}
+}
+
+#WooZone .WooZone-form-button.WooZone-form-button-small, #WooZone .WooZone-form-button-small.WooZone-form-button-small {
+    height: 3.8rem;
+}

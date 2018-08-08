@@ -1,0 +1,169 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: EpicoMedia core\n"
+"POT-Creation-Date: 2018-01-23 11:34+0330\n"
+"PO-Revision-Date: 2018-01-23 11:32+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ep-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: public/class-ep-core-public.php:115 public/class-ep-core-public.php:116
+msgid "Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:117 public/class-ep-core-public.php:162
+msgid "Add New Item"
+msgstr ""
+
+#: public/class-ep-core-public.php:118
+msgid "Add New Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:119
+msgid "Edit Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:120
+msgid "New Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:121
+msgid "View Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:122
+msgid "Search Portfolio"
+msgstr ""
+
+#: public/class-ep-core-public.php:123
+msgid "No portfolios found"
+msgstr ""
+
+#: public/class-ep-core-public.php:124
+msgid "No portfolios found in trash"
+msgstr ""
+
+#: public/class-ep-core-public.php:149 public/class-ep-core-public.php:191
+#: public/class-ep-core-public.php:237
+msgid "Categories"
+msgstr ""
+
+#: public/class-ep-core-public.php:150 public/class-ep-core-public.php:192
+#: public/class-ep-core-public.php:238
+msgid "Category"
+msgstr ""
+
+#: public/class-ep-core-public.php:160 public/class-ep-core-public.php:161
+msgid "Gallery"
+msgstr ""
+
+#: public/class-ep-core-public.php:163
+msgid "Add new gallery item"
+msgstr ""
+
+#: public/class-ep-core-public.php:164
+msgid "Edit Gallery"
+msgstr ""
+
+#: public/class-ep-core-public.php:165
+msgid "New Gallery"
+msgstr ""
+
+#: public/class-ep-core-public.php:166
+msgid "View Gallery"
+msgstr ""
+
+#: public/class-ep-core-public.php:167
+msgid "Search Gallery"
+msgstr ""
+
+#: public/class-ep-core-public.php:168
+msgid "No gallery item found"
+msgstr ""
+
+#: public/class-ep-core-public.php:169
+msgid "No gallery item was found in trash"
+msgstr ""
+
+#: public/class-ep-core-public.php:202
+msgid "Slides"
+msgstr ""
+
+#: public/class-ep-core-public.php:203
+msgid "Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:204 public/class-ep-core-public.php:205
+msgid "Add New Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:206
+msgid "Edit Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:207
+msgid "New Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:208
+msgid "View Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:209
+msgid "Search Slide"
+msgstr ""
+
+#: public/class-ep-core-public.php:210
+msgid "No Slides found"
+msgstr ""
+
+#: public/class-ep-core-public.php:211
+msgid "No Slides found in Trash"
+msgstr ""
+
+#: public/class-ep-core-public.php:287
+msgid "Share"
+msgstr ""
+
+#: public/class-ep-core-public.php:291
+msgid "Share on Facebook!"
+msgstr ""
+
+#: public/class-ep-core-public.php:300
+msgid "Share on Twitter!"
+msgstr ""
+
+#: public/class-ep-core-public.php:309
+msgid "Share on Google+!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "EpicoMedia core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/epicomedia/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add custom post types."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "EpicoMedia"
+msgstr ""

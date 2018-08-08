@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------------
+
+        Theme Name: Vitrine
+        Theme URI: http://themeforest.net/user/Epicomedia
+        Description: <strong>WooCommerce WordPress Theme </strong>
+        Author: EpicoMedia
+        Author URI: http://www.Epicomedia.com
+        License: GNU General Public License version 3.0
+        License URI: http://www.gnu.org/licenses/gpl-3.0.html
+        Version: 3.4.3
+        Tags: two-columns, three-columns, left-sidebar, right-sidebar,custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready, accessibility-ready
+    Text Domain: vitrine
+
+    Designed & Handcrafted by EpicoMedia
+        All files, unless otherwise stated, are released under the GNU General Public License
+        version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+
+-----------------------------------------------------------------------------------*/
+#headerFirstState .menuBgColor{
+    background-image: -moz-linear-gradient( 0deg, rgb(15,111,0) 0%, rgb(11,129,3) 18%, rgb(7,147,6) 54%, rgb(61,177,26) 79%, rgb(114,207,45) 100%) !important;
+    background-image: -webkit-linear-gradient( 0deg, rgb(15,111,0) 0%, rgb(11,129,3) 18%, rgb(7,147,6) 54%, rgb(61,177,26) 79%, rgb(114,207,45) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(15,111,0) 0%, rgb(11,129,3) 18%, rgb(7,147,6) 54%, rgb(61,177,26) 79%, rgb(114,207,45) 100%);
+}

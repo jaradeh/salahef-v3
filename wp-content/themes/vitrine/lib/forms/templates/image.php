@@ -1,0 +1,1 @@
+<img src="<?php echo esc_url(EPICO_THEME_LIB_URI . '/admin/img/' . $vars['filename']); ?>" alt="<?php echo epico_array_value('alt', $vars); ?>" class="<?php echo epico_array_value('class', $vars); ?>" />

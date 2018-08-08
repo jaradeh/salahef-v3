@@ -1,0 +1,117 @@
+<wpml-config>
+
+  <custom-fields>
+    <custom-field action="copy">post-social-share</custom-field>
+    <custom-field action="copy">title-bar-switch</custom-field>
+    <custom-field action="copy">page-type-switch</custom-field>
+    <custom-field action="copy">show-in-menu-switch</custom-field>
+    <custom-field action="copy">post-social-share</custom-field>
+    <custom-field action="copy">media</custom-field>
+    <custom-field action="copy">video-type</custom-field>
+    <custom-field action="copy">video-id</custom-field>
+    <custom-field action="copy">audio-url</custom-field>
+    <custom-field action="copy">gallery</custom-field>
+    <custom-field action="copy">page-position-switch</custom-field>
+    <custom-field action="copy">blog-type-switch</custom-field>
+    <custom-field action="copy">slider</custom-field>
+    <custom-field action="copy">footer-widget-area</custom-field>
+    <custom-field action="copy">resume-exp-section</custom-field>
+    <custom-field action="copy">caption-icon-image-animation</custom-field>
+    <custom-field action="copy">caption-image</custom-field>
+    <custom-field action="copy">caption-icon</custom-field>
+    <custom-field action="copy">background-type</custom-field>
+    <custom-field action="copy">background-image</custom-field>
+    <custom-field action="copy">video-url-webm</custom-field>
+    <custom-field action="copy">video-url-mp4</custom-field>
+    <custom-field action="copy">video-prev-image</custom-field>
+    <custom-field action="copy">button-url</custom-field>
+    <custom-field action="copy">caption-style</custom-field>
+    <custom-field action="copy">caption-align</custom-field>
+    <custom-field action="copy">caption-dark-light</custom-field>
+    <custom-field action="copy">image</custom-field>
+    <custom-field action="copy">link-url</custom-field>
+    <custom-field action="copy">portfolio-featured-size</custom-field>
+    <custom-field action="copy">portfolio-detail-style</custom-field>
+    <custom-field action="copy">portfolio-social-share</custom-field>
+    <custom-field action="copy">attribute-value</custom-field>
+    <custom-field action="translate">seo_description</custom-field>
+    <custom-field action="translate">seo_keywords</custom-field>
+    <custom-field action="translate">title-text</custom-field>
+    <custom-field action="translate">subtitle-text</custom-field>
+    <custom-field action="translate">sidebar</custom-field>
+    <custom-field action="translate">blog-sidebar</custom-field>
+    <custom-field action="translate">footer-map</custom-field>
+    <custom-field action="translate">title-bar</custom-field>
+    <custom-field action="translate">revolutionslider</custom-field>
+    <custom-field action="translate">caption-icon-image</custom-field>
+    <custom-field action="translate">button-text</custom-field>
+    <custom-field action="translate">attribute-title</custom-field>
+  </custom-fields>
+
+
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+    <custom-type translate="1">slider</custom-type>
+    <custom-type translate="1">gallery</custom-type>
+    <custom-type translate="1">blog</custom-type>
+    <custom-type translate="1">product</custom-type>
+    <custom-type translate="1">page</custom-type>
+  </custom-types>
+
+
+  <taxonomies>
+    <taxonomy translate="1">skills</taxonomy>
+    <taxonomy translate="1">slider_cats</taxonomy>
+    <taxonomy translate="1">gallery_cats</taxonomy>
+    <taxonomy translate="1">post_cats</taxonomy>
+    <taxonomy translate="1">product_cat</taxonomy>
+
+
+
+
+  </taxonomies>
+
+  <admin-texts>
+    <key name="theme_vertex_options">
+      <key name="footer_title"/>
+      <key name="footer_subtitle"/>
+      <key name="footer-copyright"/>
+    </key>
+  </admin-texts>
+
+  <language-switcher-settings>
+    <key name="icl_lang_sel_config">
+      <key name="font-current-normal">#444444</key>
+      <key name="font-current-hover">#000000</key>
+      <key name="background-current-normal">#ffffff</key>
+      <key name="background-current-hover">#eeeeee</key>
+      <key name="font-other-normal">#444444</key>
+      <key name="font-other-hover">#000000</key>
+      <key name="background-other-normal">#ffffff</key>
+      <key name="background-other-hover">#eeeeee</key>
+      <key name="border">#cdcdcd</key>
+    </key>
+    <key name="icl_lang_sel_footer_config">
+      <key name="font-current-normal">#444444</key>
+      <key name="font-current-hover">#000000</key>
+      <key name="background-current-normal">#ffffff</key>
+      <key name="background-current-hover">#eeeeee</key>
+      <key name="font-other-normal">#444444</key>
+      <key name="font-other-hover">#000000</key>
+      <key name="background-other-normal">#ffffff</key>
+      <key name="background-other-hover">#eeeeee</key>
+      <key name="border">#cdcdcd</key>
+    </key>
+    <key name="icl_language_switcher_sidebar">0</key>
+    <key name="icl_widget_title_show">0</key>
+    <key name="icl_lang_sel_type">dropdown</key>
+    <key name="icl_lso_link_empty">0</key>
+    <key name="icl_lso_flags">0</key>
+    <key name="icl_lso_native_lang">1</key>
+    <key name="icl_lso_display_lang">1</key>
+    <key name="icl_lang_sel_footer">0</key>
+    <key name="icl_post_availability">0</key>
+    <key name="icl_post_availability_position">below</key>
+    <key name="icl_post_availability_text">This post is also available in: %s</key>
+  </language-switcher-settings>
+</wpml-config>

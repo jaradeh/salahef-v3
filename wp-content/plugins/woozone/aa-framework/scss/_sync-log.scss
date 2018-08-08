@@ -1,0 +1,940 @@
+##{$alias} {
+  .panel {
+	background-color: #ffffff;
+	.panel-heading {
+	  background-color: #ffffff;
+	}
+  }
+	##{$alias}-sync-log {
+		margin: 0 px(15) px(10) px(10);
+		padding-bottom: px(12);
+		position: relative;
+		input[type="checkbox"] {
+			margin-top: -#{px(3)};
+		}
+		.#{$alias}-filter-general_field {
+			border: 1px solid #e5e5e5;
+			border-radius: px(5);
+			height: px(30) !important;
+			margin: 0 px(10) 0 0;
+			position: relative;
+			bottom: -#{px(10)};
+			width: auto;
+		}
+		.#{$alias}-sync-filters {
+			/*margin: px(20) 0 px(20) px(6);*/
+			margin: px(0) 0 px(20) px(6);
+			position: relative;
+			label {
+				margin-bottom: 0;
+			}
+			select {
+				background: #f9fafa;
+				vertical-align: middle;
+				margin: 0 px(10) 0 0;
+				height: px(28);
+				padding: px(3);
+				background-color: #f9fafa;
+				border: px(1) solid #f2f2f2;
+				outline: 0;
+				color: #444;
+				font-size: 1em;
+			}
+			a {
+				display: inline-block;
+				cursor: pointer;
+				span {
+					color: #999;
+				}
+			}
+			span.right {
+				display: inline-block;
+				position: absolute;
+				right: 0;
+				top: 0;
+				button {
+					background: $success;
+					border: none;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: px(3);
+					color: #ffffff;
+					cursor: pointer;
+					font-size: px(10);
+					font-weight: 600;
+					text-transform: uppercase;
+					width: px(66);
+					height: px(26);
+					width: px(146);
+					background: $info;
+					&:hover {
+						background: $primary;
+					}
+					&:active {
+						background: #2878e3;
+					}
+					&.sync-all {
+						width: px(116);
+						background: $success;
+					}
+				}
+				input {
+					margin: 0;
+					padding: 0;
+					margin-right: px(5);
+				}
+				strong {
+					width: px(20);
+					text-align: right;
+					display: inline-block;
+				}
+			}
+		}
+		.#{$alias}-sync-table {
+			background-color: #fff;
+			max-height: px(650);
+			overflow: auto;
+			position: relative;
+			.#{$alias}-icon-assets_dwl {
+				color: #000000;
+				font-size: px(18);
+			}
+			table {
+				border: px(1) solid #f1f1f1;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				margin-bottom: px(12);
+				text-align: center;
+				width: 100%;
+
+				.wz-last-status-invalid,
+				.wz-last-status-throttled {
+					background-color: rgba(255,205,210 ,1);
+				}
+				.wz-last-status-notfound {
+					background-color: rgba(255,224,178 ,1);
+				}
+
+				tr {
+					&:nth-child(2n + 3) {
+						min-height: px(51);
+					}
+					td:nth-child(2) a {
+						&.sign-plus {
+							color: $success;
+						}
+						&.sign-minus {
+							color: #d35400;
+						}
+					}
+				}
+				th {
+					border-bottom: px(1) solid #f1f1f1;
+					color: #aaaaaa;
+					font-size: px(14);
+					font-weight: normal;
+					text-transform: uppercase;
+					text-transform: uppercase;
+					padding: px(15) px(10);
+					&:first-child {
+						border-left: px(1) solid #f1f1f1;
+					}
+					&:nth-child(2) {
+						text-align: left;
+						padding-left: px(10);
+					}
+					&:nth-child(3) {
+						text-align: left;
+						padding-left: px(10);
+					}
+				}
+				td {
+					border-bottom: px(1) solid #f1f1f1;
+					text-transform: uppercase;
+					a.wz-show-variations {
+						font-size: px(14) !important;
+						letter-spacing: px(3);
+						i {
+						  min-width: initial;
+						  min-height: initial;
+						  &.fa-caret-up {
+							color: #d35400;
+						  } 
+						}
+					}
+					&:nth-last-child(2) {
+						text-transform: initial;
+					}
+					&:first-child {
+						border-left: px(1) solid #f1f1f1;
+					}
+					&:nth-child(2) {
+						text-align: left;
+						padding-left: px(10);
+						color: #9b9b9b;
+						font-size: px(10);
+						font-weight: $normal;
+						padding: px(4) 0 px(4) px(10);
+						a {
+							color: $success;
+							font-size: px(14);
+							font-weight: 700;
+							margin-left: px(10);
+							text-decoration: none;
+						}
+					}
+					&:nth-child(3) {
+						text-align: left;
+						padding-left: px(10);
+						a {
+							color: #3e5466;
+							font-size: px(11);
+							font-weight: $normal;
+							text-decoration: none;
+						}
+					}
+					&:nth-child(5) {
+						color: #9b9b9b;
+						font-size: px(11);
+						font-weight: 600;
+					}
+					&:nth-child(7) {
+						color: #9b9b9b;
+						font-size: px(11);
+						font-weight: 600;
+					}
+					img {
+						max-width: px(25);
+						vertical-align: middle;
+						margin-right: px(10);
+					}
+					a.bitly-country {
+						display: inline-block;
+					}
+					a.bitly-country > img {
+						max-width: px(24) !important;
+						margin-right: px(5);
+					}
+					&:nth-child(4) a {
+						color: darken($info, 10%);
+						font-size: px(11);
+						font-style: italic;
+					}
+					&:nth-child(6) button {
+						background: $success;
+						border: none;
+						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						border-radius: px(3);
+						color: #ffffff;
+						cursor: pointer;
+						font-size: px(10);
+						font-weight: 600;
+						text-transform: uppercase;
+						width: px(66);
+						height: px(26);
+						&:hover {
+							background: $primary;
+						}
+						&:active {
+							background: #2878e3;
+						}
+					}
+
+					&.#{$alias}-sync-row-last-status {
+						.#{$alias}-sync-last-status-text {
+							background-color: #ECEFF1;
+							color: #37474F;
+							padding: 3px 5px;
+							font-size: 11px;
+    						font-style: italic;
+
+							&.sync-updated {
+								background-color: rgba(76,175,80 ,1);
+								color: #fff;
+							}
+							&.sync-notupdated {
+								background-color: rgba(3,169,244 ,1);
+								color: #fff;
+							}
+							&.sync-notfound {
+								background-color: rgba(251,140,0 ,1);
+								color: #fff;
+							}
+							&.sync-error {
+								background-color: rgba(239,83,80 ,1);
+								color: #fff;
+							}
+						}
+						> a > img {
+							margin-right: 0.2rem !important;
+						}
+						i.fa {
+							min-width: 1.1rem !important;
+							margin-left: 0.2rem !important;
+						}
+						> span {
+							margin-left: 1px;
+						}
+						> span.sync-current-cycle {
+							margin-left: 0px;
+							i {
+								color: rgba(255,193,7,1);
+							}
+						}
+					}
+				}
+				i {
+					font-size: px(11);
+					min-height: px(25);
+					min-width: px(20);
+					padding-top: px(10);
+				}
+				.wz-next-sync {
+					background: #fef3df !important;
+					i {
+						color: #e67e22;
+					}
+				}
+				.wz-synced i {
+					color: #27ae60;
+				}
+				.wz-variation img {
+					margin-left: px(35);
+				}
+				.wz-variation i.WooZone-icon-assets_dwl {
+					margin-left: px(35);
+					margin-right: px(15);
+				}
+				.wz-variation i.fa.fa-flag {
+					margin-left: 3rem;
+				}
+				tbody tr.wz-variation {
+					&:nth-child(n + 2) {
+						display: none;
+					}
+					&.first td:not(:first-child) {
+						border-top: px(1) dotted $success;
+					}
+					&.last td:not(:first-child) {
+						border-bottom: px(1) dotted $success;
+					}
+				}
+			}
+			&.stats_prod table {
+				i {
+					padding-top: 0;
+					margin-right: px(10);
+				}
+				tr td {
+					&:nth-child(1) {
+						vertical-align: middle;
+						span {
+						}
+					}
+				}
+			}
+		}
+		.#{$alias}-sync-info {
+			.#{$alias}-sync-inprogress {
+				display: none;
+				/*position: absolute;
+				right: 0px;*/
+				padding: 5px;
+			}
+			.#{$alias}-sync-inprogress > p {
+				margin: 0px;
+			}
+			.#{$alias}-sync-inprogress > p button {
+				width: 12rem !important;
+			}
+			.#{$alias}-sync-inprogress.#{$alias}-sync-inprogress-bottom {
+				/*top: 0px;*/
+			}
+			.#{$alias}-sync-inprogress.#{$alias}-sync-inprogress-top {
+				/*bottom: 0px;*/
+			}
+			.#{$alias}-panel-sync-all {
+				display: none;
+				padding: 5px;
+				color: #2ecc71;
+				font-style: italic;
+			}
+				.#{$alias}-panel-sync-all > span {
+					color: #95a5a6;
+					font-style: normal;
+				}
+					.#{$alias}-panel-sync-all > span > span {
+						font-weight: bold;
+						color: #16a085;
+						text-transform: lowercase;
+					}
+
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(2);
+			position: relative;
+			margin-top: px(30);
+			p {
+				font: bold px(12) Open Sans, sans-serif;
+				color: #656565;
+				margin: px(16) 0 0;
+				button {
+					background: $success;
+					border: none;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: px(3);
+					color: #ffffff;
+					cursor: pointer;
+					font-size: px(10);
+					font-weight: 600;
+					text-transform: uppercase;
+					width: px(66);
+					height: px(26);
+					width: px(96);
+					background: $info;
+					&:hover {
+						background: $primary;
+					}
+					&:active {
+						background: #2878e3;
+					}
+				}
+				span {
+					margin: 0 px(5);
+				}
+			}
+			&.#{$alias}-box-stats {
+				min-height: px(30);
+				text-align: right;
+			}
+			h3 {
+				font-family: Open Sans, sans-serif;
+				font-size: px(14);
+				font-weight: bold;
+				color: #31485b;
+				text-transform: uppercase;
+				margin-top: 0;
+			}
+			form {
+				select {
+					font-size: px(12);
+					font-weight: normal;
+					height: px(21);
+					margin: -#{px(22)} 0 0;
+					padding: 0;
+					vertical-align: middle;
+					&:active {
+						font-size: px(12);
+						font-weight: normal;
+						height: px(21);
+						margin: -#{px(22)} 0 0;
+						padding: 0;
+						vertical-align: middle;
+					}
+					&:focus {
+						font-size: px(12);
+						font-weight: normal;
+						height: px(21);
+						margin: -#{px(22)} 0 0;
+						padding: 0;
+						vertical-align: middle;
+					}
+				}
+			}
+			.#{$alias}-sync-settings {
+				span:nth-of-type(2) {
+					margin-left: px(10);
+				}
+			}
+			.#{$alias}-sync-settings-msg {
+				display: inline-block;
+			}
+			.#{$alias}-sync-pagination {
+				text-align: justify; 
+				/* IE special */
+				width: 100%;  
+				-ms-text-justify: distribute-all-lines;
+				text-justify: distribute-all-lines;
+
+				&:after {
+					content: '';
+					display: inline-block;
+					width: 100%;
+					height: 0;
+					font-size:0;
+					line-height:0;
+				}
+
+				.#{$alias}-sync-pagination-wrapp {
+					display: inline-block;
+					vertical-align: top; 
+					/* ie 7*/
+					*display: inline;
+					*zoom: 1;
+					*text-align: right;
+				}
+
+				.#{$alias}-sync-filterby-sync-status {
+					display: inline-block;
+					vertical-align: top;
+					/* ie 7*/
+					*display: inline;
+					*zoom: 1;
+					*text-align: left;
+				}
+
+				&.#{$alias}-sync-bottom {
+				}
+				&.#{$alias}-sync-top {
+					margin-top: 10px;
+				}
+				.#{$alias}-box-show-per-pages {
+					float: none;
+					display: inline-block;
+					vertical-align: bottom;
+					select {
+						margin-top: -#{px(8)};
+					}
+				}
+			}
+		}
+		.wz-uppercase {
+			text-transform: uppercase !important;
+		}
+		.wz-hide-me {
+			display: table-row !important;
+		}
+		.#{$alias}-sync-stats {
+			border: px(1) solid #e5e5e5;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(10);
+			padding: px(12);
+			margin-bottom: px(5);
+			.#{$alias}-message {
+				background-position: px(2) px(3);
+				border-bottom: 0;
+				padding: px(2) px(8) px(2) px(20);
+				&.#{$alias}-error {
+		  			background-size: px(16) auto;
+		  			background-color: #d9534f;
+				}
+				&.#{$alias}-warning {
+				  background-size: px(16) auto;
+				  background-color: #f0ad4e;
+				  color: #fff !important;
+				}
+				&.#{$alias}-success {
+				  background-size: px(16) auto;
+				  background-color: #68c64b;
+				  color: #fff !important;
+				}
+				&.#{$alias}-info {
+				  background-size: px(16) auto;
+				  background-color: #5bc0de;
+				  color: #fff !important;
+				}
+			}
+			h3 {
+				font-family: Open Sans, sans-serif;
+				font-size: px(14);
+				font-weight: bold;
+				color: #31485b;
+				text-transform: uppercase;
+				margin-top: 0;
+			}
+			p {
+				font: bold px(12) Open Sans, sans-serif;
+				color: #656565;
+				margin: px(16) 0 0;
+			}
+			table {
+				width: 100%;
+				.title {
+					font-family: Open Sans, sans-serif;
+					font-size: px(12);
+					font-weight: bold;
+					color: #31485b;
+					text-transform: uppercase;
+					margin-top: 0;
+					background-color: #ecf0f1;
+				}
+				ul {
+					margin-top: px(8);
+					li {
+						display: inline-block;
+						margin-right: px(15);
+						span {
+							color: $info;
+						}
+					}
+				}
+				tr:last-child ul {
+					margin-bottom: 0;
+				}
+			}
+		}
+		##{$alias}-main-loading button {
+			background: $success;
+			border: none;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(3);
+			color: #ffffff;
+			cursor: pointer;
+			font-size: px(10);
+			font-weight: 600;
+			text-transform: uppercase;
+			width: px(66);
+			height: px(26);
+			display: inline-block;
+			margin-left: px(7);
+			width: px(126);
+			background: $primary;
+			background: #2878e3;
+		}
+	}
+	##{$alias}-main-loading ##{$alias}-loading-box {
+		top: px(300);
+	}
+	.#{$alias}-sync-table table {
+		.#{$alias}-row-loading-marker {
+			position: relative;
+			left: 0;
+			top: -#{px(17)};
+			padding: 0;
+		}
+		.#{$alias}-row-loading {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1000;
+			width: 100%;
+			height: 100%;
+			margin-left: -#{px(10)};
+			margin-top: -#{px(12)};
+			padding: 0;
+			background-color: #484848;
+			background-color: rgba(207, 222, 247, 0.8);
+		}
+	}
+	##{$alias}-wrapper ##{$alias}-content-area .#{$alias}-panel-header {
+		position: relative;
+		span.#{$alias}-panel-sync-all {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: px(20);
+			color: $success;
+			font-style: italic;
+			> span {
+				color: #95a5a6;
+				font-style: normal;
+				> span {
+					font-weight: bold;
+					color: #16a085;
+					text-transform: lowercase;
+				}
+			}
+		}
+	}
+}
+
+.#{$alias}-section-synchronization {
+	##{$alias}_sync_options {
+		select#delete_unavailable_products {
+			width: px(100) !important;
+		}
+	}
+}
+
+##{$alias}-sync-log {
+
+	.WooZone-sync-stats table ul li span.#{$alias}-sync-cycle-main-status {
+		color: rgba(38,50,56 ,1) !important;
+		padding: 0.2rem 0.8rem 0.2rem 0.8rem !important;
+	}
+
+	.#{$alias}-sync-cycle-header {
+		ul {
+			display: inline-block;
+			margin: 0px !important;
+			padding: 0px !important;
+			width: 100%;
+			text-align: left;
+			border: 1px solid rgb(207,215,217);
+			border-bottom: 0px;
+			border-radius: 4px;
+
+			li {
+				display: inline-block;
+				width: 49%;
+				text-align: center;
+				margin: 0px !important;
+				padding: 5px !important;
+			}
+			li:first-child, li:last-child {
+				width: 25%;
+				text-align: left;
+			}
+			li:last-child {
+				text-align: right;
+			}
+		}
+	}
+
+	.#{$alias}-sync-cycle-footer {
+		ul {
+			display: inline-block;
+			margin: 0px !important;
+			margin-top: 5px !important;
+			padding: 0px !important;
+			width: 100%;
+			text-align: left;
+			border: 0px;
+
+			li {
+				display: inline-block;
+				margin: 0px !important;
+				margin-right: 20px !important;
+				padding: 0px !important;
+			}
+		}
+	}
+
+	.#{$alias}-sync-process-progress-bar {
+		background-color: #cfd8da;
+		-webkit-box-shadow: inset 0 px(1) px(2) rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0 px(1) px(2) rgba(0, 0, 0, 0.1);
+		height: px(80);
+		margin-bottom: px(0);
+		margin-top: px(0);
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+
+		.#{$alias}-sync-process-progress-percent {
+			border-radius: 10px;
+			width: 100%;
+			height: 70px;
+			position:absolute;
+			left: 0; right: 0;
+			top: 0; bottom: 0;
+			margin: auto;
+			max-width: 100%;
+			max-height: 100%;
+			overflow: hidden;
+			text-align: center;
+
+			.#{$alias}-sync-process-progress-circle-wrapp {
+				display: inline-block;
+				width: 68px;
+				height: 100%;
+				vertical-align: top;
+
+				.#{$alias}-sync-process-progress-circle {
+					background: #fff;
+					border-radius: 50%;
+					padding-bottom: 100%;
+					width: 100%;
+					height: auto;
+					position: relative;
+
+					span {
+						position: absolute;
+						float: left;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						font-size: 20px;
+					}
+				}
+			}
+
+			.#{$alias}-sync-process-progress-info {
+				display: inline-block;
+				height: 100%;
+				vertical-align: top;
+				margin-left: 20px;
+				color: #fff;
+				font-size: 16px;
+
+				> div {
+					margin: 0px !important;
+					height: 100%;
+					display: table;
+
+					> div {
+						display: table-cell;
+						vertical-align: middle;
+						text-align: left;
+
+						div {
+							color: #fff;
+							font-size: 14px;
+							margin-top: 5px;
+						}
+						div:last-child {
+							margin-top: 0px;
+						}
+						div:first-child {
+							color: #fff;
+							font-size: 20px;
+							margin-top: 0px;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+
+		 &.im-notfound {
+		 	background-color: #f2f2f2;
+		 	height: px(20);
+			margin-top: px(2);
+		 }
+		&.im-trash, &.im-witherror {
+			background-color: #ff3600;
+			height: px(20);
+			margin-top: px(2);
+		}
+		&.im-witherror {
+			background-color: #ff3600;
+			height: px(30);
+			margin-top: px(2);
+		}
+
+		&.im-trash .#{$alias}-sync-process-progress-marker,
+		&.im-notfound .#{$alias}-sync-process-progress-marker,
+		&.im-witherror .#{$alias}-sync-process-progress-marker {
+			height: px(20);
+		}
+		&.im-witherror .#{$alias}-sync-process-progress-marker {
+			height: px(30);
+		}
+
+		&.im-trash .#{$alias}-sync-process-progress-marker {
+			background-color: #e67e22;
+			color: #fff;
+		}
+
+		&.im-notfound .#{$alias}-sync-process-progress-marker {
+			background-color: #ff9700;
+			color: #fff;
+		}
+
+		&.im-witherror .#{$alias}-sync-process-progress-marker {
+			background-color: #2d64a5;
+			color: #fff !important;
+		}
+
+		&.im-trash .#{$alias}-sync-process-progress-text,
+		&.im-notfound .#{$alias}-sync-process-progress-text,
+		&.im-witherror .#{$alias}-sync-process-progress-text {
+			height: px(20);
+			top: 5%;
+			color: #fff;
+		}
+		&.im-witherror .#{$alias}-sync-process-progress-text {
+			height: px(30);
+			top: 20%;
+		}
+
+		&.im-trash .#{$alias}-sync-process-progress-text span,
+		&.im-notfound .#{$alias}-sync-process-progress-text span,
+		&.im-witherror .#{$alias}-sync-process-progress-text span {
+			font-size: px(13);
+			color: #fff;
+		}
+
+		.#{$alias}-sync-process-progress-marker {
+			background-color: #68c64b;
+			background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
+			background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
+			background-size: px(10) px(10);
+			color: #fff;
+			height: 100%;
+			height: px(80);
+			line-height: px(50);
+			overflow: hidden;
+			text-align: center;
+			width: 0%;
+		}
+
+		.#{$alias}-sync-process-progress-text {
+			height: px(80);
+			left: 1%;
+			position: absolute;
+			text-indent: px(6);
+			top: 30%;
+			color: #1c2a30;
+
+			span {
+				font-size: px(16);
+				margin-right: px(25);
+				
+				& > span {
+					font-weight: bold;
+				}
+			}
+		}
+
+		&.im-trash .#{$alias}-sync-process-progress-text {
+			color: rgba(221,44,0 ,1);
+		}
+		&.im-notfound .#{$alias}-sync-process-progress-text {
+			color: rgba(255,109,0 ,1);
+		}
+		&.im-witherror .#{$alias}-sync-process-progress-text {
+			color: rgba(0,77,64 ,1);
+		}
+	}
+}
+
+.#{$alias}-sync-info-next-cycle td {
+	padding-top: 15px !important;
+}
+
+.#{$alias}-sync-filterby-sync-status {
+	#filterby_sync_status {
+		option[value="throttled"],
+		option[value="invalid"] {
+			background-color: rgba(239,83,80 ,1);
+			color: #fff;
+		}
+
+		option[value="notfound"] {
+			background-color: rgba(251,140,0 ,1);
+			color: #fff;
+		}
+
+		option[value="notupdated"] {
+			background-color: rgba(3,169,244 ,1);
+			color: #fff;
+		}
+
+		option[value="updated"] {
+			background-color: rgba(76,175,80 ,1);
+			color: #fff;
+		}
+	}
+
+	input[type=text] {
+		margin-left: 20px !important;
+	}
+
+	button {
+		border: none;
+		border-radius: px(3);
+		color: #fff !important;
+		cursor: pointer;
+		font-size: px(10);
+		font-weight: 600;
+		text-transform: uppercase;
+		height: px(26);
+		width: px(90);
+		background: $info;
+		&:hover {
+			background: $primary;
+		}
+		&:active {
+			background: #2878e3;
+		}
+	}
+}

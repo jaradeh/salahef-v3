@@ -1,0 +1,553 @@
+/*---------------------------------------------------------------*/
+/* Visual Composer CSS extend
+/*---------------------------------------------------------------*/
+
+/* Default style */
+.pricing-box .pricing-box-inner {
+    padding: 45px 40px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.pricing-box .plan-title {
+    display: block;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 600;
+    margin: 0px 0px 15px;
+}
+
+.pricing-box .plan-currency {
+    font-size: 16px;
+    vertical-align: 41px;
+}
+
+.pricing-box .plan-price {
+    font-size: 80px;
+    line-height: 88px;
+}
+
+.pricing-box .plan-time {
+    font-size: 16px;
+}
+
+.pricing-box .plan-meta {
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+.pricing-box .plan-divider {
+    margin: 35px auto;
+    width: 60%;
+    height: 2px;
+    display: block;
+    opacity: 0.2;
+}
+
+.pricing-box .plan-badge {
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: center;
+    display: table;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.pricing-box .plan-badge span {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 5px;
+    width: 100%;
+}
+
+/* Style 2 */
+.pricing-box.box-style-2 .pricing-box-inner {
+    padding: 0;
+}
+
+.pricing-box.box-style-2 .plan-header {
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pricing-box.box-style-2 .plan-title {
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.149);
+    margin: 0 0 32px;
+    padding: 15px 0;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pricing-box.box-style-2 .plan-price {
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.pricing-box.box-style-2 .plan-currency {
+    vertical-align: 25px;
+}
+
+.pricing-box.box-style-2 .plan-meta {
+    margin: 0px;
+    padding: 5px 10px 45px;
+}
+
+.pricing-box.box-style-2 .plan-features {
+    padding: 45px 40px;
+}
+
+.pricing-box.box-style-2 .plan-badge {
+    top: -24px;
+    right: -18px;
+}
+
+.pricing-box.box-style-2 .plan-arrow {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -10px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent;
+}
+
+/* Style 3 */
+.pricing-box.box-style-3 .pricing-box-inner {
+    padding: 0;
+}
+
+.pricing-box.box-style-3 .plan-header .plan-title-wrapper {
+    padding: 26px 40px 25px;
+    margin-bottom: 25px;
+    display: block;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pricing-box.box-style-3 .plan-title {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-box.box-style-3 .plan-currency {
+    font-size: 39px;
+    vertical-align: 5px;
+    padding-left: 1px;
+}
+
+.pricing-box.box-style-3 .plan-meta {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 3px 0 0;
+    padding: 0;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.pricing-box.box-style-3 .plan-features {
+    padding: 0 40px 45px;
+}
+
+.pricing-box.box-style-3 .plan-badge {
+    top: -12px;
+    right: -13px;
+}
+
+.pricing-box.box-style-3 .plan-divider {
+    width: 75%;
+    margin: 25px auto 35px;
+}
+
+.pricing-box.box-style-3 .plan-arrow {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 50%;
+    margin-top: -26px;
+    margin-left: -10px;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+}
+
+/* Style 4 */
+.pricing-box.box-style-4 .pricing-box-inner {
+    padding: 0;
+}
+
+.pricing-box.box-style-4 .plan-header {
+    padding: 35px 40px 25px;
+    margin-bottom: 55px;
+    display: block;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pricing-box.box-style-4 .plan-price-wrapper {
+    background: #fff;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: block;
+    border: 6px solid #000;
+    border-radius: 50%;
+    margin: 20px auto -80px;
+}
+
+.pricing-box.box-style-4 .plan-price {
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 31px;
+}
+
+.pricing-box.box-style-4 .plan-time {
+    display: block;
+    margin-top: -2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.pricing-box.box-style-4 .plan-currency {
+    vertical-align: 5px;
+    margin-left: -8px;
+}
+
+.pricing-box.box-style-4 .plan-title {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-box.box-style-4 .plan-meta {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 3px 0 0;
+    padding: 0;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.pricing-box.box-style-4 .plan-features {
+    padding: 45px 40px;
+}
+
+/* Effects */
+.pricing-box .pricing-box-inner {
+    -webkit-transition: -webkit-transform 300ms ease-out 0ms, box-shadow 300ms ease-out 0ms;
+    -moz-transition: -moz-transform 300ms ease-out 0ms, box-shadow 300ms ease-out 0ms;
+    transition: transform 300ms ease-out 0ms, box-shadow 300ms ease-out 0ms;
+    box-shadow: 0;
+}
+
+.pricing-box.box-effect-1 .pricing-box-inner:hover, .pricing-box.box-effect-1.box-effect-active .pricing-box-inner {
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.pricing-box.box-effect-2 .pricing-box-inner:hover, .pricing-box.box-effect-2.box-effect-active .pricing-box-inner {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.34);
+}
+
+.pricing-box.box-effect-3 .pricing-box-inner:hover, .pricing-box.box-effect-3.box-effect-active .pricing-box-inner {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.34);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+/* Last element spacing fix */
+.wpb_row, .wpb_content_element:last-child, ul.wpb_thumbnails-fluid > li:last-child, .last_toggle_el_margin:last-child, .wpb_button:last-child {
+    margin-bottom: 0px !important;
+}
+
+/* Front end builder styles */
+.compose-mode  .vc_mnky_pricing_box .vc_controls > .vc_controls-out-tl {
+    top: 5px !important;
+    left: 50%;
+	-ms-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.compose-mode .vc_mnky_pricing_box .vc_control-btn-append {
+    top: -25px !important;
+}
+
+/*---------------------------------------------------------------*/
+/* Responsive
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width: 979px) {
+
+/* Pricing box */
+    .pricing-box .plan-price,  .pricing-box.box-style-3 .plan-price {
+        font-size: 60px;
+    }
+}
+
+
+/*---------------------------------------------------------------*/
+/* Animation Delays
+/*---------------------------------------------------------------*/
+
+.delay-100.wpb_start_animation {
+    -webkit-animation-delay: 100ms;
+    -moz-animation-delay: 100ms;
+    -o-animation-delay: 100ms;
+    animation-delay: 100ms;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.delay-200.wpb_start_animation {
+    -webkit-animation-delay: 200ms;
+    -moz-animation-delay: 200ms;
+    -o-animation-delay: 200ms;
+    animation-delay: 200ms;
+    -webkit-transition-delay: 200ms;
+    -moz-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+
+.delay-300.wpb_start_animation {
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    -o-animation-delay: 300ms;
+    animation-delay: 300ms;
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.delay-400.wpb_start_animation {
+    -webkit-animation-delay: 400ms;
+    -moz-animation-delay: 400ms;
+    -o-animation-delay: 400ms;
+    animation-delay: 400ms;
+    -webkit-transition-delay: 400ms;
+    -moz-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+
+.delay-500.wpb_start_animation {
+    -webkit-animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    animation-delay: 500ms;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+
+.delay-600.wpb_start_animation {
+    -webkit-animation-delay: 600ms;
+    -moz-animation-delay: 600ms;
+    -o-animation-delay: 600ms;
+    animation-delay: 600ms;
+    -webkit-transition-delay: 600ms;
+    -moz-transition-delay: 600ms;
+    -o-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.delay-700.wpb_start_animation {
+    -webkit-animation-delay: 700ms;
+    -moz-animation-delay: 700ms;
+    -o-animation-delay: 700ms;
+    animation-delay: 700ms;
+    -webkit-transition-delay: 700ms;
+    -moz-transition-delay: 700ms;
+    -o-transition-delay: 700ms;
+    transition-delay: 700ms;
+}
+
+.delay-800.wpb_start_animation {
+    -webkit-animation-delay: 800ms;
+    -moz-animation-delay: 800ms;
+    -o-animation-delay: 800ms;
+    animation-delay: 800ms;
+    -webkit-transition-delay: 800ms;
+    -moz-transition-delay: 800ms;
+    -o-transition-delay: 800ms;
+    transition-delay: 800ms;
+}
+
+.delay-900.wpb_start_animation {
+    -webkit-animation-delay: 900ms;
+    -moz-animation-delay: 900ms;
+    -o-animation-delay: 900ms;
+    animation-delay: 900ms;
+    -webkit-transition-delay: 900ms;
+    -moz-transition-delay: 900ms;
+    -o-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.delay-1000.wpb_start_animation {
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+    -webkit-transition-delay: 1000ms;
+    -moz-transition-delay: 1000ms;
+    -o-transition-delay: 1000ms;
+    transition-delay: 1000ms;
+}
+
+.delay-1100.wpb_start_animation {
+    -webkit-animation-delay: 1100ms;
+    -moz-animation-delay: 1100ms;
+    -o-animation-delay: 1100ms;
+    animation-delay: 1100ms;
+    -webkit-transition-delay: 1100ms;
+    -moz-transition-delay: 1100ms;
+    -o-transition-delay: 1100ms;
+    transition-delay: 1100ms;
+}
+
+.delay-1200.wpb_start_animation {
+    -webkit-animation-delay: 1200ms;
+    -moz-animation-delay: 1200ms;
+    -o-animation-delay: 1200ms;
+    animation-delay: 1200ms;
+    -webkit-transition-delay: 1200ms;
+    -moz-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+    transition-delay: 1200ms;
+}
+
+.delay-1300.wpb_start_animation {
+    -webkit-animation-delay: 1300ms;
+    -moz-animation-delay: 1300ms;
+    -o-animation-delay: 1300ms;
+    animation-delay: 1300ms;
+    -webkit-transition-delay: 1300ms;
+    -moz-transition-delay: 1300ms;
+    -o-transition-delay: 1300ms;
+    transition-delay: 1300ms;
+}
+
+.delay-1400.wpb_start_animation {
+    -webkit-animation-delay: 1400ms;
+    -moz-animation-delay: 1400ms;
+    -o-animation-delay: 1400ms;
+    animation-delay: 1400ms;
+    -webkit-transition-delay: 1400ms;
+    -moz-transition-delay: 1400ms;
+    -o-transition-delay: 1400ms;
+    transition-delay: 1400ms;
+}
+
+.delay-1500.wpb_start_animation {
+    -webkit-animation-delay: 1500ms;
+    -moz-animation-delay: 1500ms;
+    -o-animation-delay: 1500ms;
+    animation-delay: 1500ms;
+    -webkit-transition-delay: 1500ms;
+    -moz-transition-delay: 1500ms;
+    -o-transition-delay: 1500ms;
+    transition-delay: 1500ms;
+}
+
+.delay-1600.wpb_start_animation {
+    -webkit-animation-delay: 1600ms;
+    -moz-animation-delay: 1600ms;
+    -o-animation-delay: 1600ms;
+    animation-delay: 1600ms;
+    -webkit-transition-delay: 1600ms;
+    -moz-transition-delay: 1600ms;
+    -o-transition-delay: 1600ms;
+    transition-delay: 1600ms;
+}
+
+.delay-1700.wpb_start_animation {
+    -webkit-animation-delay: 1700ms;
+    -moz-animation-delay: 1700ms;
+    -o-animation-delay: 1700ms;
+    animation-delay: 1700ms;
+    -webkit-transition-delay: 1700ms;
+    -moz-transition-delay: 1700ms;
+    -o-transition-delay: 1700ms;
+    transition-delay: 1700ms;
+}
+
+.delay-1800.wpb_start_animation {
+    -webkit-animation-delay: 1800ms;
+    -moz-animation-delay: 1800ms;
+    -o-animation-delay: 1800ms;
+    animation-delay: 1800ms;
+    -webkit-transition-delay: 1800ms;
+    -moz-transition-delay: 1800ms;
+    -o-transition-delay: 1800ms;
+    transition-delay: 1800ms;
+}
+
+.delay-1900.wpb_start_animation {
+    -webkit-animation-delay: 1900ms;
+    -moz-animation-delay: 1900ms;
+    -o-animation-delay: 1900ms;
+    animation-delay: 1900ms;
+    -webkit-transition-delay: 1900ms;
+    -moz-transition-delay: 1900ms;
+    -o-transition-delay: 1900ms;
+    transition-delay: 1900ms;
+}
+
+.delay-2000.wpb_start_animation {
+    -webkit-animation-delay: 2000ms;
+    -moz-animation-delay: 2000ms;
+    -o-animation-delay: 2000ms;
+    animation-delay: 2000ms;
+    -webkit-transition-delay: 2000ms;
+    -moz-transition-delay: 2000ms;
+    -o-transition-delay: 2000ms;
+    transition-delay: 2000ms;
+}
